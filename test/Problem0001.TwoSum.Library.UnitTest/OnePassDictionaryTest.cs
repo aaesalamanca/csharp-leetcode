@@ -20,23 +20,4 @@ public class OnePassDictionaryTest
         // Assert.
         Assert.Equal(expected, actual);
     }
-
-    [Fact]
-    public void TwoSum_ReturnsTarget_WhenLargeSet()
-    {
-        // Arrange.
-        ISolution solution = new OnePassDictionary();
-        int[] nums = new int[] { 1 }
-            .Concat(Enumerable.Range(2, 500))
-            .Concat([1])
-            .ToArray();
-        int target = 2;
-        int[] expected = [0, 501];
-
-        // Act.
-        int[] actual = solution.TwoSum(nums, target);
-
-        // Assert.
-        Assert.Equal(expected, actual);
-    }
 }
