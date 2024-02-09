@@ -18,9 +18,9 @@ public class TwoPassDictionary : ISolution
         for (int i = 0; i < nums.Length; i++)
         {
             complement = target - nums[i];
-            if (indexes.ContainsKey(complement) && indexes[complement] != i)
+            if (indexes.TryGetValue(complement, out int index) && index != i)
             {
-                return [i, indexes[complement]];
+                return [i, index];
             }
         }
 

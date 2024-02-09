@@ -13,9 +13,9 @@ public class OnePassDictionary : ISolution
         for (int i = 0; i < nums.Length; i++)
         {
             complement = target - nums[i];
-            if (indexes.ContainsKey(complement))
+            if (indexes.TryGetValue(complement, out int index))
             {
-                return [indexes[complement], i];
+                return [index, i];
             }
 
             indexes[nums[i]] = i;
