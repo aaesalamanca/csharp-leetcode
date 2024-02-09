@@ -3,6 +3,7 @@ using Problem0001.TwoSum.Library.Implementations;
 
 namespace Benchmarks.Console.Benchmarks;
 
+[MemoryDiagnoser]
 public class Problem0001TwoSum
 {
     private readonly Random _random = new();
@@ -10,18 +11,19 @@ public class Problem0001TwoSum
     private readonly TwoPassDictionary _twoPassDictionary = new();
     private readonly OnePassDictionary _onePassDictionary = new();
 
+    // Uncomment the data set to run the benchmark against.
     public IEnumerable<object[]> Data()
     {
-        yield return new object[] { new int[] { 3, 2, 4 }, 6 };
-        yield return new object[]
-        {
-            new int[] { 1 }
-                .Concat(Enumerable.Range(2, 500))
-                .Concat([1])
-                .ToArray(),
-            2
-        };
-        yield return new object[] { Enumerable.Range(2, 500).Concat([1, 1]).ToArray(), 2 };
+        // yield return new object[] { new int[] { 3, 2, 4 }, 6 };
+        // yield return new object[]
+        // {
+        //     new int[] { 1 }
+        //         .Concat(Enumerable.Range(2, 500))
+        //         .Concat([1])
+        //         .ToArray(),
+        //     2
+        // };
+        // yield return new object[] { Enumerable.Range(2, 500).Concat([1, 1]).ToArray(), 2 };
         yield return new object[]
         {
             Enumerable.Range(2, 500).Concat([1, 1]).OrderBy(_ => _random.Next()).ToArray(),
