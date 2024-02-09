@@ -7,7 +7,7 @@ public class OnePassDictionary : ISolution
     // Time complexity: O(n) - Space complexity: O(n)
     public int[] TwoSum(int[] nums, int target)
     {
-        Dictionary<int, int> indexes = new();
+        Dictionary<int, int> indexes = new(nums.Length);
 
         int complement;
         for (int i = 0; i < nums.Length; i++)
