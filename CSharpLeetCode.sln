@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem0001.TwoSum.Library.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.Console", "src\Benchmarks.Console\Benchmarks.Console.csproj", "{A7355CE9-9726-41AD-BE03-D473B2C0F5AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem0009.PalindromeNumber.Library.UnitTest", "test\Problem0009.PalindromeNumber.Library.UnitTest\Problem0009.PalindromeNumber.Library.UnitTest.csproj", "{3BEEF4F9-604F-4FE4-824C-C1F28D9E054E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem0009.PalindromeNumber.Library", "src\Problem0009.PalindromeNumber.Library\Problem0009.PalindromeNumber.Library.csproj", "{028D6168-1AAF-4557-B31B-C037882CD816}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,10 +38,20 @@ Global
 		{A7355CE9-9726-41AD-BE03-D473B2C0F5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7355CE9-9726-41AD-BE03-D473B2C0F5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7355CE9-9726-41AD-BE03-D473B2C0F5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEEF4F9-604F-4FE4-824C-C1F28D9E054E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEEF4F9-604F-4FE4-824C-C1F28D9E054E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEEF4F9-604F-4FE4-824C-C1F28D9E054E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEEF4F9-604F-4FE4-824C-C1F28D9E054E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028D6168-1AAF-4557-B31B-C037882CD816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028D6168-1AAF-4557-B31B-C037882CD816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028D6168-1AAF-4557-B31B-C037882CD816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028D6168-1AAF-4557-B31B-C037882CD816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E68165BA-DD46-4DFC-B1EB-339D7FB3877B} = {8D1825DA-DA3C-4ADD-A642-1673472F87A0}
 		{41DE44E0-FAE4-444B-8336-56BEC6021480} = {5E6DC4DF-58B7-4524-89BF-98C3B0E8E5CC}
 		{A7355CE9-9726-41AD-BE03-D473B2C0F5AC} = {8D1825DA-DA3C-4ADD-A642-1673472F87A0}
+		{3BEEF4F9-604F-4FE4-824C-C1F28D9E054E} = {5E6DC4DF-58B7-4524-89BF-98C3B0E8E5CC}
+		{028D6168-1AAF-4557-B31B-C037882CD816} = {8D1825DA-DA3C-4ADD-A642-1673472F87A0}
 	EndGlobalSection
 EndGlobal
