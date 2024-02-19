@@ -23,6 +23,7 @@ $ dotnet run -c Release --project src/Benchmarks.Console
 
 ## Relación de problemas y soluciones
 
-| Proyecto                                                           | Solución                                                         |
-| ------------------------------------------------------------------ | ---------------------------------------------------------------- |
-| [/src/Problem0001.TwoSum.Library](/src/Problem0001.TwoSum.Library) | [1. Two Sum](https://leetcode.com/problems/two-sum/description/) |
+| Proyecto                                                                               | Solución                                                                             |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [/src/Problem0001.TwoSum.Library](/src/Problem0001.TwoSum.Library)                     | [1. Two Sum](https://leetcode.com/problems/two-sum/description/)                     |
+| [/src/Problem0009.PalindromeNumber.Library](/src/Problem0009.PalindromeNumber.Library) | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) |

@@ -4,6 +4,7 @@ namespace Problem0009.PalindromeNumber.Library.Implementations;
 
 public class WithDivision : ISolution
 {
+    // Time complexity: O(n) (?) - Space complexity: O(1) (?)
     public bool IsPalindrome(int x)
     {
         if (x < 0)
