@@ -1,7 +1,7 @@
-namespace Problem0009.PalindromeNumber.Library.UnitTest;
-
 using Problem0009.PalindromeNumber.Library.Implementations;
 using Problem0009.PalindromeNumber.Library.Interfaces;
+
+namespace Problem0009.PalindromeNumber.Library.UnitTest;
 
 public class IntsArrayTest
 {
