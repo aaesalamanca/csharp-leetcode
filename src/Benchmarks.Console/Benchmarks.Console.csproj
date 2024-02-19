@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Problem0001.TwoSum.Library\Problem0001.TwoSum.Library.csproj" />
+    <ProjectReference Include="..\Problem0009.PalindromeNumber.Library\Problem0009.PalindromeNumber.Library.csproj" />
   </ItemGroup>
 
 </Project>
