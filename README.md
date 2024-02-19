@@ -15,7 +15,7 @@ Para ejecutar las pruebas unitarias, sitúate en la raíz del repositorio y ejec
 $ dotnet test
 ```
 
-Para ejecutar los _benchmarks_, sitúate en la raíz del repositorio y ejecuta:
+Para ejecutar un _benchmark_, escribe el nombre de la clase que contiene el que quieres ejecutar en [/src/Benchmarks.Console/Program.cs](/src/Benchmarks.Console/Program.cs), entre `<>`, sitúate en la raíz del repositorio y ejecuta:
 
 ```bash
 $ dotnet run -c Release --project src/Benchmarks.Console
