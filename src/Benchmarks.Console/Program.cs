@@ -1,3 +1,5 @@
 ﻿using BenchmarkDotNet.Running;
+using Benchmarks.Console.Benchmarks;
 
-var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
+// Select the benchmark to run within the < >.
+var summary = BenchmarkRunner.Run<Problem0009PalindromeNumber>();
