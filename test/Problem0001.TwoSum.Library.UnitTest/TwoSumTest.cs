@@ -1,4 +1,7 @@
-﻿namespace Problem0001.TwoSum.Library.UnitTest;
+﻿using Problem0001.TwoSum.Library.Implementations;
+using Problem0001.TwoSum.Library.Interfaces;
+
+namespace Problem0001.TwoSum.Library.UnitTest;
 
 public class TwoSumTest
 {

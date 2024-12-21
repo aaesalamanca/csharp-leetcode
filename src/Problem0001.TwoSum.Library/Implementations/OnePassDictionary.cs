@@ -2,21 +2,22 @@ using Problem0001.TwoSum.Library.Interfaces;
 
 namespace Problem0001.TwoSum.Library.Implementations;
 
-public class BruteForce : ISolution
+public class OnePassDictionary : ISolution
 {
     public int[] TwoSum(int[] nums, int target)
     {
+        var indexes = new Dictionary<int, int>(nums.Length);
+
         int complement;
-        for (int i = 0; i < nums.Length - 1; i++)
+        for (int i = 0; i < nums.Length; i++)
         {
             complement = target - nums[i];
-            for (int j = i + 1; j < nums.Length; j++)
+            if (indexes.TryGetValue(complement, out int index))
             {
-                if (nums[j] == complement)
-                {
-                    return [i, j];
-                }
+                return [index, i];
             }
+
+            indexes[nums[i]] = i;
         }
 
         return Array.Empty<int>();

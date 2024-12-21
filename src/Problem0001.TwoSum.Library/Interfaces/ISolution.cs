@@ -1,6 +1,6 @@
 namespace Problem0001.TwoSum.Library.Interfaces;
 
-interface ISolution
+public interface ISolution
 {
     int[] TwoSum(int[] nums, int target);
 }
