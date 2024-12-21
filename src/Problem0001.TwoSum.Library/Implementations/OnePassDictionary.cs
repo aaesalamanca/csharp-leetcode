@@ -20,6 +20,6 @@ public class OnePassDictionary : ISolution
             indexes[nums[i]] = i;
         }
 
-        return Array.Empty<int>();
+        return [];
     }
 }

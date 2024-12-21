@@ -19,6 +19,6 @@ public class BruteForce : ISolution
             }
         }
 
-        return Array.Empty<int>();
+        return [];
     }
 }

@@ -23,6 +23,6 @@ public class TwoPassDictionary : ISolution
             }
         }
 
-        return Array.Empty<int>();
+        return [];
     }
 }
