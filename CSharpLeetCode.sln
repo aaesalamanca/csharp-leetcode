@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A25C564D-0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem0001.TwoSum.Library.UnitTest", "test\Problem0001.TwoSum.Library.UnitTest\Problem0001.TwoSum.Library.UnitTest.csproj", "{282D3FAA-4E4D-45CE-BE16-7AA5E3DB58B6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E26392E-70D4-4CBB-87ED-F9C4FD7450C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem0001.TwoSum.Library", "src\Problem0001.TwoSum.Library\Problem0001.TwoSum.Library.csproj", "{BDCD7A8A-A8D1-44F8-9837-F5CE764FA878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{282D3FAA-4E4D-45CE-BE16-7AA5E3DB58B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{282D3FAA-4E4D-45CE-BE16-7AA5E3DB58B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{282D3FAA-4E4D-45CE-BE16-7AA5E3DB58B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCD7A8A-A8D1-44F8-9837-F5CE764FA878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCD7A8A-A8D1-44F8-9837-F5CE764FA878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCD7A8A-A8D1-44F8-9837-F5CE764FA878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCD7A8A-A8D1-44F8-9837-F5CE764FA878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{282D3FAA-4E4D-45CE-BE16-7AA5E3DB58B6} = {A25C564D-012E-4AF5-89CB-A7DEE27E1F5F}
+		{BDCD7A8A-A8D1-44F8-9837-F5CE764FA878} = {6E26392E-70D4-4CBB-87ED-F9C4FD7450C0}
 	EndGlobalSection
 EndGlobal
