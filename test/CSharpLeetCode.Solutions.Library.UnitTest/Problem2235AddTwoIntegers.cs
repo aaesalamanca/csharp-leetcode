@@ -1,3 +1,6 @@
+using CSharpLeetCode.Solutions.Library.Interfaces;
+using Solution = CSharpLeetCode.Solutions.Library.Implementations.Problem2235AddTwoIntegers;
+
 namespace CSharpLeetCode.Solutions.Library.UnitTest;
 
 public class Problem2235AddTwoIntegers
@@ -8,7 +11,7 @@ public class Problem2235AddTwoIntegers
     public void AddTwoIntegers_ReturnsTarget(int num1, int num2, int expected)
     {
         // Arrange.
-        IProblem2235AddTwoIntegers sut = new Problem2235AddTwoIntegers();
+        IProblem2235AddTwoIntegers sut = new Solution();
 
         // Act.
         var actual = sut.Sum(num1, num2);
