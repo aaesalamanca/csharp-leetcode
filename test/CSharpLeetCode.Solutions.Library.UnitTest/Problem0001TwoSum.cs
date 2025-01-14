@@ -1,9 +1,9 @@
-﻿using Problem0001.TwoSum.Library.Implementations;
-using Problem0001.TwoSum.Library.Interfaces;
+﻿using CSharpLeetCode.Solutions.Library.Implementations.Problem0001TwoSum;
+using CSharpLeetCode.Solutions.Library.Interfaces;
 
 namespace Problem0001.TwoSum.Library.UnitTest;
 
-public class TwoSumTest
+public class Problem0001TwoSum
 {
     [Theory]
     [InlineData(new int[] { 2, 7, 11, 15 }, 9, new int[] { 0, 1 })]
@@ -12,7 +12,7 @@ public class TwoSumTest
     public void BruteForce_ReturnsTarget(int[] nums, int target, int[] expected)
     {
         // Arrange.
-        ISolution sut = new BruteForce();
+        IProblem0001TwoSum sut = new BruteForce();
 
         // Act.
         var actual = sut.TwoSum(nums, target);
@@ -28,7 +28,7 @@ public class TwoSumTest
     public void OnePassDictionary_ReturnsTarget(int[] nums, int target, int[] expected)
     {
         // Arrange.
-        ISolution sut = new OnePassDictionary();
+        IProblem0001TwoSum sut = new OnePassDictionary();
 
         // Act.
         var actual = sut.TwoSum(nums, target);
@@ -44,7 +44,7 @@ public class TwoSumTest
     public void TwoPassDictionary_RetutnsTarget(int[] nums, int target, int[] expected)
     {
         // Arrange.
-        ISolution sut = new TwoPassDictionary();
+        IProblem0001TwoSum sut = new TwoPassDictionary();
 
         // Act.
         var actual = sut.TwoSum(nums, target);
