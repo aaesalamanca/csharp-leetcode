@@ -1,8 +1,8 @@
-using Problem0001.TwoSum.Library.Interfaces;
+using CSharpLeetCode.Solutions.Library.Interfaces;
 
-namespace Problem0001.TwoSum.Library.Implementations;
+namespace CSharpLeetCode.Solutions.Library.Implementations.Problem0001TwoSum;
 
-public class TwoPassDictionary : ISolution
+public class TwoPassDictionary : IProblem0001TwoSum
 {
     public int[] TwoSum(int[] nums, int target)
     {

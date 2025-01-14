@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Problem0001.TwoSum.Library\Problem0001.TwoSum.Library.csproj" />
+    <ProjectReference Include="..\..\src\CSharpLeetCode.Solutions.Library\CSharpLeetCode.Solutions.Library.csproj" />
   </ItemGroup>
 
 </Project>
