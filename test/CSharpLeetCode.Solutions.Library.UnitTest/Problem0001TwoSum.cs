@@ -1,7 +1,7 @@
 ﻿using CSharpLeetCode.Solutions.Library.Implementations.Problem0001TwoSum;
 using CSharpLeetCode.Solutions.Library.Interfaces;
 
-namespace Problem0001.TwoSum.Library.UnitTest;
+namespace CSharpLeetCode.Solutions.Library.UnitTest;
 
 public class Problem0001TwoSum
 {
