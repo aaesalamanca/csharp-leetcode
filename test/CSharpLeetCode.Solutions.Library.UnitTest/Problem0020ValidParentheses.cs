@@ -10,6 +10,9 @@ public class Problem0020ValidParentheses
     [InlineData("()[]{}", true)]
     [InlineData("(]", false)]
     [InlineData("([])", true)]
+    [InlineData("]", false)]
+    [InlineData("){", false)]
+    [InlineData("(])", false)]
     public void ValidParentheses_ReturnsTarget(string s, bool expected)
     {
         // Arrange.
