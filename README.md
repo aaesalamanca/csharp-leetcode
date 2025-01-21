@@ -21,8 +21,9 @@ dotnet run -c Release --project src/CSharpLeetCode.Benchmarks.Console/
 
 ## Relación de problemas y soluciones
 
-| Problema                                                                  | Solución                                                                                                                                                                 |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [1. Two Sum](https://leetcode.com/problems/two-sum/)                      | [src/CSharpLeetCode.Solutions.Library/Implementations/Problem0001TwoSum/](/src/CSharpLeetCode.Solutions.Library/Implementations/Problem0001TwoSum/)                      |
-| [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)   | [/src/CSharpLeetCode.Solutions.Library/Implementations/Problem0013RomanToInteger.cs](/src/CSharpLeetCode.Solutions.Library/Implementations/Problem0013RomanToInteger.cs) |
-| [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/) | [/src/CSharpLeetCode.Solutions.Library/Implementations/Problem2235AddTwoIntegers.cs](/src/CSharpLeetCode.Solutions.Library/Implementations/Problem2235AddTwoIntegers.cs) |
+| Problema                                                                  | Solución                                                                                                                                                                     |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [1. Two Sum](https://leetcode.com/problems/two-sum/)                      | [/src/CSharpLeetCode.Solutions.Library/Implementations/Problem0001TwoSum/](/src/CSharpLeetCode.Solutions.Library/Implementations/Problem0001TwoSum/)                         |
+| [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)   | [/src/CSharpLeetCode.Solutions.Library/Implementations/Problem0013RomanToInteger.cs](/src/CSharpLeetCode.Solutions.Library/Implementations/Problem0013RomanToInteger.cs)     |
+| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [/src/CSharpLeetCode.Solutions.Library/Implementations/Problem0020ValidParentheses.cs](/src/CSharpLeetCode.Solutions.Library/Implementations/Problem0020ValidParentheses.cs) |
+| [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/) | [/src/CSharpLeetCode.Solutions.Library/Implementations/Problem2235AddTwoIntegers.cs](/src/CSharpLeetCode.Solutions.Library/Implementations/Problem2235AddTwoIntegers.cs)     |
