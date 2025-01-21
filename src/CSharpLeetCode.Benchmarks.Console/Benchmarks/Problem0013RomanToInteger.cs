@@ -8,7 +8,7 @@ public class Problem0013RomanToInteger
 {
     private readonly Solution _problem0013RomanToInteger = new();
 
-    // Uncomment the data set to run the benchmark againts
+    // Uncomment the data set to run the benchmark against.
     public IEnumerable<object[]> Data()
     {
         yield return new object[] { "III" };
