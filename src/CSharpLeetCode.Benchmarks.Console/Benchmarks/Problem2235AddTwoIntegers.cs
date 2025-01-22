@@ -11,8 +11,8 @@ public class Problem2235AddTwoIntegers
     // Uncomment the data set to run the benchmark against.
     public IEnumerable<object[]> Data()
     {
-        yield return new object[] { 12, 5 };
-        // yield return new object[] { -10, 4 };
+        yield return [12, 5];
+        // yield return [-10, 4];
     }
 
     [Benchmark]
