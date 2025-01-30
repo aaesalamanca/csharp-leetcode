@@ -1,7 +1,7 @@
 using BenchmarkDotNet.Attributes;
-using Solution = CSharpLeetCode.Solutions.Library.Implementations.Problem0020ValidParentheses;
+using Solution = LeetSharp.Solutions.Library.Implementations.Problem0020ValidParentheses;
 
-namespace CSharpLeetCode.Benchmarks.Console.Benchmarks;
+namespace LeetSharp.Benchmarks.Console.Benchmarks;
 
 [MemoryDiagnoser]
 public class Problem0020ValidParentheses
