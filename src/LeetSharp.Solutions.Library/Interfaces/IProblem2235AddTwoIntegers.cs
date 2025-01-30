@@ -1,4 +1,4 @@
-namespace CSharpLeetCode.Solutions.Library.Interfaces;
+namespace LeetSharp.Solutions.Library.Interfaces;
 
 public interface IProblem2235AddTwoIntegers
 {

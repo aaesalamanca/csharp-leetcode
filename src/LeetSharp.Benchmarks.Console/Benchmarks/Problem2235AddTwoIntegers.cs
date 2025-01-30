@@ -1,7 +1,7 @@
 using BenchmarkDotNet.Attributes;
-using Solution = CSharpLeetCode.Solutions.Library.Implementations.Problem2235AddTwoIntegers;
+using Solution = LeetSharp.Solutions.Library.Implementations.Problem2235AddTwoIntegers;
 
-namespace CSharpLeetCode.Benchmarks.Console.Benchmarks;
+namespace LeetSharp.Benchmarks.Console.Benchmarks;
 
 [MemoryDiagnoser]
 public class Problem2235AddTwoIntegers

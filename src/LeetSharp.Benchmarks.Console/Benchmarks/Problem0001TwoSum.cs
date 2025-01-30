@@ -1,7 +1,7 @@
 using BenchmarkDotNet.Attributes;
-using CSharpLeetCode.Solutions.Library.Implementations.Problem0001TwoSum;
+using LeetSharp.Solutions.Library.Implementations.Problem0001TwoSum;
 
-namespace CSharpLeetCode.Benchmarks.Console.Benchmarks;
+namespace LeetSharp.Benchmarks.Console.Benchmarks;
 
 [MemoryDiagnoser]
 public class Problem0001TwoSum

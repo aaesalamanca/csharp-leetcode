@@ -1,6 +1,6 @@
-using CSharpLeetCode.Solutions.Library.Interfaces;
+using LeetSharp.Solutions.Library.Interfaces;
 
-namespace CSharpLeetCode.Solutions.Library.Implementations.Problem0001TwoSum;
+namespace LeetSharp.Solutions.Library.Implementations.Problem0001TwoSum;
 
 public class OnePassDictionary : IProblem0001TwoSum
 {

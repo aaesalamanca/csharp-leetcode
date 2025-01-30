@@ -1,6 +1,6 @@
-using CSharpLeetCode.Solutions.Library.Interfaces;
+using LeetSharp.Solutions.Library.Interfaces;
 
-namespace CSharpLeetCode.Solutions.Library.Implementations;
+namespace LeetSharp.Solutions.Library.Implementations;
 
 public class Problem0013RomanToInteger : IProblem0013RomanToInteger
 {

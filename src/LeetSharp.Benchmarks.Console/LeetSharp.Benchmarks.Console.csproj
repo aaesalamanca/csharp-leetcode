@@ -5,7 +5,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSharpLeetCode.Solutions.Library\CSharpLeetCode.Solutions.Library.csproj" />
+    <ProjectReference Include="..\LeetSharp.Solutions.Library\LeetSharp.Solutions.Library.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
