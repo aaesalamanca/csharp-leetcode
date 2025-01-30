@@ -1,7 +1,7 @@
-using CSharpLeetCode.Solutions.Library.Interfaces;
-using Solution = CSharpLeetCode.Solutions.Library.Implementations.Problem2235AddTwoIntegers;
+using LeetSharp.Solutions.Library.Interfaces;
+using Solution = LeetSharp.Solutions.Library.Implementations.Problem2235AddTwoIntegers;
 
-namespace CSharpLeetCode.Solutions.Library.UnitTest;
+namespace LeetSharp.Solutions.Library.UnitTest;
 
 public class Problem2235AddTwoIntegers
 {

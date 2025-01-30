@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\CSharpLeetCode.Solutions.Library\CSharpLeetCode.Solutions.Library.csproj" />
+    <ProjectReference Include="..\..\src\LeetSharp.Solutions.Library\LeetSharp.Solutions.Library.csproj" />
   </ItemGroup>
 
 </Project>
