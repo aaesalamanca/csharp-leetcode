@@ -17,7 +17,7 @@ public class TwoPassDictionary : IProblem0001TwoSum
         for (int i = 0; i < nums.Length; i++)
         {
             complement = target - nums[i];
-            if (indexes.TryGetValue(complement, out int index) && index != i)
+            if (indexes.TryGetValue(complement, out var index) && index != i)
             {
                 return [i, index];
             }
