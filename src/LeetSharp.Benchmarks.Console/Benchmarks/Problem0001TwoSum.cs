@@ -14,15 +14,8 @@ public class Problem0001TwoSum
     // Uncomment the data set to run the benchmark against.
     public IEnumerable<object[]> Data()
     {
-        // yield return [new int[] { 3, 2, 4 }, 6];
-        // yield return
-        // [
-        //     new int[] { 1 }
-        //         .Concat(Enumerable.Range(2, 500))
-        //         .Concat([1])
-        //         .ToArray(),
-        //     2,
-        // ];
+        // yield return [new[] { 3, 2, 4 }, 6];
+        // yield return [new[] { 1 }.Concat(Enumerable.Range(2, 500)).Concat([1]).ToArray(), 2];
         // yield return [Enumerable.Range(2, 500).Concat([1, 1]).ToArray(), 2];
         yield return
         [
